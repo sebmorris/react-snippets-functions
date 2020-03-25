@@ -2,11 +2,11 @@
     <content><![CDATA[
 import React, { PropTypes } from 'react';
 
-const ${1:Component} = ({ className }) => {
+function ${1:Component}({ className }) {
     return (
         ${2}
     );
-};
+}
 
 ${1:Component}.displayName = '${1:Component}';
 

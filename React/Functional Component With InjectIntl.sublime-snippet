@@ -3,13 +3,13 @@
 import React, { PropTypes } from 'react';
 import { injectIntl, intlShape } from 'react-intl';
 
-const ${1:Component} = ({ intl }) => {
-    const { formatMessage } = intl;
+function ${1:Component}({ intl }) {
+   const { formatMessage } = intl;
 
-    return (
-        ${2}
-    );
-};
+   return (
+      ${2}
+   );
+}
 
 ${1:Component}.displayName = '${1:Component}';
 
