@@ -1,20 +1,20 @@
 <snippet>
     <content><![CDATA[
-import React, { PropTypes } from 'react';
+import React, { PropTypes } from 'react'
 
-function ${1:Component}({ className }) {
+function ${1:Component}({  }) {
     return (
         ${2}
-    );
+    )
 }
 
-${1:Component}.displayName = '${1:Component}';
+${1:Component}.displayName = '${1:Component}'
 
 ${1:Component}.propTypes = {
     className: PropTypes.string,
 };
 
-export default ${1:Component};
+export default ${1:Component}
 
 ]]></content>
 <tabTrigger>rfc</tabTrigger>
